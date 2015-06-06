@@ -1,0 +1,22 @@
+{
+  "name": "EnterpriseBootstrap",
+  "version": "1.0.0",
+  "description": "Enterprise Bootstrap",
+  "main": "assets/stylesheets/bootstrap.scss",
+  "keywords": [
+    "Bootstrap",
+    "Enterprise"
+  ],
+  "authors": [
+    "Natarajan Ganapathi"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/natarajanmca11",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
