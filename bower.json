@@ -18,5 +18,15 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "_release": "6989cb461f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6989cb461ff0a06cce7ddfcfda46f9724a775087"
+  },
+  "_source": "git://github.com/natarajanmca11/EnterpriseBootstrap.git",
+  "_target": "*",
+  "_originalSource": "EnterpriseBootstrap",
+  "_direct": true
 }

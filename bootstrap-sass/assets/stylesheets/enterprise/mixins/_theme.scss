@@ -1,0 +1,12 @@
+﻿@mixin theme-variant($colorbase) {
+	background-color: $colorbase;
+  
+	&:hover,
+	&:focus,
+	&.focus,
+	&:active,
+	&.active,
+	.open > &.dropdown-toggle {
+    background-color: darken($colorbase, 10%);
+  }
+}

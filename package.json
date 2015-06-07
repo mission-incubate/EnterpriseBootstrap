@@ -1,0 +1,25 @@
+{
+    "name": "EnterpriseBootstrap",
+    "version": "1.0.0",
+    "description": "EnterpriseBootstrap",
+    "main": "server.js",
+    "author": {
+        "name": "Natarajan Ganapathi",
+        "email": "natarajanmca11@gmail.com"
+    },
+    "dependencies": {
+        "gulp": "^3.9.0",
+        "gulp-sass": "^2.0.1",
+        "gulp-concat": "^2.5.2",
+        "gulp-watch": "^4.2.4",
+        "http": "^0.0.0",
+        "st": "^0.5.4",
+        "gulp-livereload": "^3.8.0",
+        "bootstrap-sass": "^3.3.4",
+        "log":"^1.4.0"
+    },
+    "devDependencies": {
+        "bower": "^1.3.12",
+        "bootstrap-sass": "^3.3.4"
+    }
+}

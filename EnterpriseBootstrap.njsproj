@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>EnterpriseBootstrap</Name>
+    <RootNamespace>BootstrapComponent</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>60e5ef85-5190-462d-bb10-b3afc74237d3</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>server.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap-sprockets.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap.min.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\affix.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\alert.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\button.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\carousel.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\collapse.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\dropdown.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\modal.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\popover.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\scrollspy.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\tab.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\tooltip.js" />
+    <Compile Include="bootstrap-sass\assets\javascripts\bootstrap\transition.js" />
+    <Compile Include="gulpfile.js" />
+    <Compile Include="server.js" />
+    <Content Include="bootstrap-sass\.bower.json" />
+    <Content Include="bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_alerts.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_buttons.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_center-block.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_forms.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_gradients.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_grid.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_hide-text.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_image.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_labels.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_list-group.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_nav-vertical-align.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_opacity.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_pagination.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_panels.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_progress-bar.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_reset-filter.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_resize.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_responsive-visibility.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_size.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_tab-focus.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_table-row.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_text-overflow.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\_vendor-prefixes.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_alerts.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_badges.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_breadcrumbs.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_button-groups.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_buttons.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_carousel.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_close.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_code.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_component-animations.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_dropdowns.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_forms.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_glyphicons.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_grid.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_input-groups.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_jumbotron.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_labels.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_list-group.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_media.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_mixins.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_modals.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_navbar.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_navs.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_normalize.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_pager.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_pagination.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_panels.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_popovers.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_print.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_progress-bars.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_responsive-embed.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_responsive-utilities.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_scaffolding.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_tables.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_theme.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_thumbnails.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_tooltip.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_type.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_utilities.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_variables.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\variables-original.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\bootstrap\_wells.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\enterprise.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\enterprise\mixins\_theme.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\enterprise\_mixins.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\enterprise\_theme.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\enterprise\_variables.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\_bootstrap-compass.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\_bootstrap-mincer.scss" />
+    <Content Include="bootstrap-sass\assets\stylesheets\_bootstrap-sprockets.scss" />
+    <Content Include="bootstrap-sass\bower.json" />
+    <Content Include="bootstrap-sass\LICENSE" />
+    <Content Include="bootstrap-sass\package.json" />
+    <Content Include="build\bootstrap.css" />
+    <Content Include="build\enterprise.css" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <Content Include="index.html" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bootstrap-sass\" />
+    <Folder Include="bootstrap-sass\assets\" />
+    <Folder Include="bootstrap-sass\assets\fonts\" />
+    <Folder Include="bootstrap-sass\assets\fonts\bootstrap\" />
+    <Folder Include="bootstrap-sass\assets\images\" />
+    <Folder Include="bootstrap-sass\assets\javascripts\" />
+    <Folder Include="bootstrap-sass\assets\javascripts\bootstrap\" />
+    <Folder Include="bootstrap-sass\assets\stylesheets\" />
+    <Folder Include="bootstrap-sass\assets\stylesheets\bootstrap\" />
+    <Folder Include="bootstrap-sass\assets\stylesheets\bootstrap\mixins\" />
+    <Folder Include="bootstrap-sass\assets\stylesheets\enterprise\" />
+    <Folder Include="bootstrap-sass\assets\stylesheets\enterprise\mixins\" />
+    <Folder Include="build\" />
+    <Folder Include="fonts\" />
+    <Folder Include="fonts\bootstrap\" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

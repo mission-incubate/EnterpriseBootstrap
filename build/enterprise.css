@@ -1,0 +1,99 @@
+.theme-1 {
+  background-color: #c9302c; }
+  .theme-1:hover,
+  .theme-1:focus,
+  .theme-1.focus,
+  .theme-1:active,
+  .theme-1.active,
+  .open > .theme-1.dropdown-toggle {
+    background-color: #a02622; }
+
+.theme-2 {
+  background-color: #a02622; }
+  .theme-2:hover,
+  .theme-2:focus,
+  .theme-2.focus,
+  .theme-2:active,
+  .theme-2.active,
+  .open > .theme-2.dropdown-toggle {
+    background-color: #761c19; }
+
+.theme-3 {
+  background-color: #761c19; }
+  .theme-3:hover,
+  .theme-3:focus,
+  .theme-3.focus,
+  .theme-3:active,
+  .theme-3.active,
+  .open > .theme-3.dropdown-toggle {
+    background-color: #4c1210; }
+
+.theme-4 {
+  background-color: #4c1210; }
+  .theme-4:hover,
+  .theme-4:focus,
+  .theme-4.focus,
+  .theme-4:active,
+  .theme-4.active,
+  .open > .theme-4.dropdown-toggle {
+    background-color: #220807; }
+
+.theme-5 {
+  background-color: #220807; }
+  .theme-5:hover,
+  .theme-5:focus,
+  .theme-5.focus,
+  .theme-5:active,
+  .theme-5.active,
+  .open > .theme-5.dropdown-toggle {
+    background-color: black; }
+
+.theme-6 {
+  background-color: black; }
+  .theme-6:hover,
+  .theme-6:focus,
+  .theme-6.focus,
+  .theme-6:active,
+  .theme-6.active,
+  .open > .theme-6.dropdown-toggle {
+    background-color: black; }
+
+.theme-7 {
+  background-color: black; }
+  .theme-7:hover,
+  .theme-7:focus,
+  .theme-7.focus,
+  .theme-7:active,
+  .theme-7.active,
+  .open > .theme-7.dropdown-toggle {
+    background-color: black; }
+
+.theme-8 {
+  background-color: black; }
+  .theme-8:hover,
+  .theme-8:focus,
+  .theme-8.focus,
+  .theme-8:active,
+  .theme-8.active,
+  .open > .theme-8.dropdown-toggle {
+    background-color: black; }
+
+.theme-9 {
+  background-color: black; }
+  .theme-9:hover,
+  .theme-9:focus,
+  .theme-9.focus,
+  .theme-9:active,
+  .theme-9.active,
+  .open > .theme-9.dropdown-toggle {
+    background-color: black; }
+
+.theme-10 {
+  background-color: black; }
+  .theme-10:hover,
+  .theme-10:focus,
+  .theme-10.focus,
+  .theme-10:active,
+  .theme-10.active,
+  .open > .theme-10.dropdown-toggle {
+    background-color: black; }
