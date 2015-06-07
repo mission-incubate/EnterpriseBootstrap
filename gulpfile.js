@@ -12,24 +12,30 @@ var Log = require('log'),
     log = new Log('info');
 
 var gulpPaths = {
-    sass: './bootstrap-sass/assets/stylesheets/',
-    cssDist: './build/'
+    sourceFonts : './bootstrap-sass/assets/fonts/bootstrap/',
+    SourceSass: './bootstrap-sass/assets/stylesheets/',
+    destBase : './build/',
+    cssDest: './build/css/',
+    fontDest : './build/fonts/bootstrap/'
 }
 
 gulp.task('sassCompile', function () {
     //gulp.src(gulpPaths.sass + '**/*.scss')
-    log.info(gulpPaths.sass);
+    //log.info(gulpPaths.sass);
+    gulp.src(gulpPaths.sourceFonts + '*.*')
+    .pipe(gulp.dest(gulpPaths.fontDest));
+
     gulp.src([
-        gulpPaths.sass + 'bootstrap.scss', 
-        gulpPaths.sass + 'enterprise.scss'
+        gulpPaths.SourceSass + 'bootstrap.scss', 
+        gulpPaths.SourceSass + 'enterprise.scss'
     ])
     .pipe(sass())
-    .pipe(gulp.dest(gulpPaths.cssDist))
-    //.pipe(concat(gulpPaths.cssDist + 'main.css'))
+    .pipe(gulp.dest(gulpPaths.cssDest))
+    //.pipe(concat(gulpPaths.cssDest + 'main.css'))
     //.pipe(gulp.dest('./'))
     //.pipe(minifyCSS())
     //.pipe(rename('main.min.css'))
-    //.pipe(gulp.dest(gulpPaths.cssDist))
+    //.pipe(gulp.dest(gulpPaths.cssDest))
     .pipe(livereload());
 });
 

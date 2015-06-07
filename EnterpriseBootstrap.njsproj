@@ -136,14 +136,19 @@
     <Content Include="bootstrap-sass\bower.json" />
     <Content Include="bootstrap-sass\LICENSE" />
     <Content Include="bootstrap-sass\package.json" />
-    <Content Include="build\bootstrap.css" />
-    <Content Include="build\enterprise.css" />
-    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.eot" />
-    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
-    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.woff2" />
-    <Content Include="index.html" />
+    <Content Include="build\css\bootstrap.css" />
+    <Content Include="build\css\enterprise.css" />
+    <Content Include="build\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="build\fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="build\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="build\fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="build\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <Content Include="build\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="build\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="build\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="build\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="build\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="docs\index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
@@ -161,8 +166,10 @@
     <Folder Include="bootstrap-sass\assets\stylesheets\enterprise\" />
     <Folder Include="bootstrap-sass\assets\stylesheets\enterprise\mixins\" />
     <Folder Include="build\" />
-    <Folder Include="fonts\" />
-    <Folder Include="fonts\bootstrap\" />
+    <Folder Include="build\css\" />
+    <Folder Include="build\fonts\" />
+    <Folder Include="build\fonts\bootstrap\" />
+    <Folder Include="docs\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
