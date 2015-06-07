@@ -1,6 +1,6 @@
 {
   "name": "EnterpriseBootstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enterprise Bootstrap",
   "main": "assets/stylesheets/bootstrap.scss",
   "keywords": [
