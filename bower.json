@@ -16,8 +16,15 @@
     "**/.*",
     "node_modules",
     "bower_components",
+	"bootstrap-sass",
     "test",
-    "tests"
+    "tests",
+	"bower.json",
+	"EnterpriseBootstrap.njsproj",
+	"gulpfile.js",
+	"package.json",
+	"README.md",
+	"server.js"
   ],
   "_release": "6989cb461f",
   "_resolution": {
