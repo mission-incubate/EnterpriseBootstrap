@@ -14,7 +14,7 @@
     },
     "scripts":{
         
-    }
+    },
     "dependencies": { },
     "devDependencies": {
         "gulp": "^3.9.0",
