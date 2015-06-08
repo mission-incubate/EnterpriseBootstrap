@@ -2,11 +2,19 @@
     "name": "EnterpriseBootstrap",
     "version": "1.0.0",
     "description": "EnterpriseBootstrap",
+    "homepage":"https://github.com/natarajanmca11/EnterpriseBootstrap",
+    "repository":{
+        "type":"git",
+        "url" :"https://github.com/natarajanmca11/EnterpriseBootstrap.git"
+    },
     "main": "server.js",
     "author": {
         "name": "Natarajan Ganapathi",
         "email": "natarajanmca11@gmail.com"
     },
+    "scripts":{
+        
+    }
     "dependencies": { },
     "devDependencies": {
         "gulp": "^3.9.0",
